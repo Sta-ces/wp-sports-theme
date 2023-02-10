@@ -1,0 +1,24 @@
+.underline_menu > *:after,
+.underline:after{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 0;
+	background-color: currentColor;
+	transform-origin: center center;
+	position: relative;
+	left: 50%;
+	margin-top: 4px;
+	-webkit-transition: width .25s, left .25s;
+	-moz-transition: width .25s, left .25s;
+	-ms-transition: width .25s, left .25s;
+	-o-transition: width .25s, left .25s;
+	transition: width .25s, left .25s;
+}
+
+.underline_menu > *:hover:after,
+.underline_menu > *.active_menu:after,
+.underline:hover:after{
+	width: 50%;
+	left: 25%;
+}

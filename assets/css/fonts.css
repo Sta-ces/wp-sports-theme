@@ -1,0 +1,87 @@
+/* REGULAR */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Roman-12.ttf');
+}
+
+/* BOLD */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Heavy-05.ttf');
+    font-weight: 600;
+}
+
+/* BOLD ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-HeavyOblique-06.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Oblique-11.ttf');
+    font-style: italic;
+}
+
+/* LIGHT */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Light-07.ttf');
+    font-weight: lighter;
+}
+
+/* LIGHT ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-LightOblique-08.ttf');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* BOOK */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Book-01.ttf');
+    font-weight: 300;
+}
+
+/* BOOK ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-BookOblique-02.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* MEDIUM */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Medium-09.ttf');
+    font-weight: 200;
+}
+
+/* MEDIUM ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-MediumOblique-10.ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* BLACK */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Black-03.ttf');
+    font-weight: 800;
+}
+
+/* BLACK ITALIC */
+@font-face{
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-BlackOblique-04.ttf');
+    font-weight: 800;
+    font-style: italic;
+}

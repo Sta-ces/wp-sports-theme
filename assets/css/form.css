@@ -1,0 +1,124 @@
+.caldera-grid{ position: relative; }
+.caldera-grid, .caldera-grid h2, .caldera-grid h3, .caldera-grid h4, .caldera-grid h5, .caldera-grid h6
+{ background-color: transparent; font-family: 'Glacial'; color: white; display: block; text-align: center; }
+.caldera-grid form{
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 2;
+    padding: 50px;
+}
+.caldera-grid form .title-section-form h4,
+.caldera-grid form .title-section-form p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.caldera-grid form .title-section-form p{ color: var(--black-color); }
+.caldera-grid form hr{ visibility: hidden; }
+.caldera-grid form .radio-gender{ text-align: center; color: white; }
+.caldera-grid form input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.caldera-grid form label{ font-weight: normal; }
+.caldera-grid form label .field_required{ color: white !important; }
+.caldera-grid form input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--main-color);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid white;
+}
+.caldera-grid form .form-control:focus,
+.mc4wp-form input[type="email"]:focus,
+.mc4wp-form input[type="text"]:focus{
+    border-color: white;
+    outline: none;
+}
+.caldera-grid form .form-control,
+.mc4wp-form input[type="email"],
+.mc4wp-form input[type="text"]{
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 7.5px;
+    color: white;
+}
+.caldera-grid form .form-control::placeholder,
+.mc4wp-form input[type="email"]::placeholder,
+.mc4wp-form input[type="text"]::placeholder{
+    color: var(--second-color);
+    opacity: .75;
+    font-style: italic;
+}
+.caldera-grid form .form-control option{ background-color: var(--main-color); }
+.caldera-grid form .form-control option:hover{ background-color: white; color: var(--main-color); }
+.caldera-grid form .btn{
+    min-width: 150px;
+    border: solid 2px white;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    -webkit-transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    -o-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+}
+.caldera-grid form .btn:hover{ background-color: white; }
+.caldera-grid form .last_row{ text-align: right; }
+.caldera-grid form .checkbox{ color: white; }
+#newsletter-container .widget-title{ color: white; margin: 10px 0; }
+.mc4wp-form input{
+    font-size: 12pt;
+    font-weight: normal;
+    margin: 0;
+    padding: 7.5px 15px;
+}
+.mc4wp-form input[type="text"]{ max-width: 145px; }
+.mc4wp-form input[type="email"],
+.mc4wp-form input[name="FNAME"]{ border-radius: 7.5px 0 0 7.5px; }
+.mc4wp-form input[name="LNAME"]{ border-radius: 0 7.5px 7.5px 0; }
+.mc4wp-form input[type="submit"]{
+    background-color: white;
+    color: var(--main-color);
+    margin: 0;
+    border: solid white 2px;
+    padding: 7.5px 15px;
+    border-radius: 0 7.5px 7.5px 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px){
+    .caldera-grid form{ position: relative; }
+}
+@media screen and (max-width: 400px){
+    .mc4wp-form input[type="email"],
+    .mc4wp-form input[type="text"]{
+        display: block;
+        width: calc(100% - 30px);
+        max-width: 100%;
+        border-radius: 0;
+    }
+    .mc4wp-form input[name="LASTNAME"]{ border-radius: 7.5px 7.5px 0 0; }
+    .mc4wp-form input[type="submit"]{
+        display: block;
+        width: calc(100% + 4px);
+        border-radius: 0 0 7.5px 7.5px;
+    }
+}

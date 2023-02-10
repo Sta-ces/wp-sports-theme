@@ -1,0 +1,44 @@
+.error-404{
+	display: block;
+	text-align: right;
+	width: 50%;
+	margin: 200px 75px 0 auto;
+	color: white;
+}
+
+.error-404 .entry-title{
+	font-size: 5em;
+	color: var(--main-color);
+	padding: .25em 0;
+}
+
+.error-404 .entry-subtitle{
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+.error-404 .goback{
+	font-style: italic;
+	padding-top: 20px;
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+
+.error-404 a{
+	display: inline;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: color .25s;
+}
+
+.error-404 a:hover{
+	color: var(--main-color);
+}
+
+.error-404 .custom-logo-link{
+	display: block;
+	max-width: 100px;
+	margin: 2em 0 0 auto;
+}

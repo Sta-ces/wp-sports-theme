@@ -1,0 +1,25 @@
+.container-block{
+    background-color: lightgray;
+    padding: 15px;
+}
+.selecter{
+    min-width: 150px;
+}
+.label{
+    font-size: 12pt;
+    padding: 10px 0 5px;
+}
+.small{ font-size: 10pt; }
+.block{
+    display: block;
+    width: 100%;
+}
+input[type="checkbox"]{ margin: 5px; }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex-item{ width: 25%; }
+.marg-top-10{ margin-top: 10px; }
+.marg-bot-10{ margin-bottom: 10px; }

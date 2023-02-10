@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacesbe\n"
+"POT-Creation-Date: 22-12-2022\n"
+"PO-Revision-Date: 2023-01-18 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "from %s to %s"
+msgstr "von %s bis %s"
+
+msgid "event"
+msgstr "veranstaltung"
+
+msgid "events"
+msgstr "veranstaltungen"
+
+msgid "matches"
+msgstr "spiele"
+
+msgid "Tall"
+msgstr "Groß"
+
+msgid "tall"
+msgstr "groß"
+
+msgid "Weight"
+msgstr "Gewicht"
+
+msgid "weight"
+msgstr "gewicht "
+
+msgid "Age"
+msgstr "Alter"
+
+msgid "age"
+msgstr "alter"
+
+msgid "Experiences"
+msgstr "Erlebnisse"
+
+msgid "experiences"
+msgstr "erlebnisse"
+
+msgid "Years"
+msgstr "Jahre"
+
+msgid "years"
+msgstr "jahre"
+
+msgid "Year"
+msgstr "Jahre"
+
+msgid "year"
+msgstr "jahre"
+
+msgid "Teams"
+msgstr "Mannschaften"
+
+msgid "teams"
+msgstr "mannschaften"
+
+msgid "Team"
+msgstr "Mannschaft"
+
+msgid "team"
+msgstr "mannschaft"
+
+msgid "Read bio"
+msgstr "Lesen die bio"
+
+msgid "Read"
+msgstr "Lesen"

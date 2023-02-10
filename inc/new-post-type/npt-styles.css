@@ -1,0 +1,15 @@
+.custom-meta-box{ display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.custom-meta-box.justify-end{ justify-content: flex-end; }
+.custom-meta-box.justify-start,
+.custom-meta-box.type-checkbox{	justify-content: flex-start; }
+.custom-meta-box.align-end{ align-items: flex-end; }
+.custom-meta-box.align-start{ align-items: flex-start; }
+.custom-meta-box.column{ flex-direction: column; }
+.custom-meta-box > label{ margin-right: 1em; }
+.custom-meta-box > label.block{	display: block; }
+.custom-meta-box > label.minWidth{ min-width: 125px; }
+.custom-meta-box > input,
+.custom-meta-box > select{ flex-grow: 1; }
+.custom-meta-box > input[type="checkbox"]{ flex-grow: 0; }
+.custom-meta-box > span{ margin: .5em; display: block; width: 100%; font-style: italic; font-size: .85em; }
+.custom-meta-box > textarea{ display: block; width: 100%; }
